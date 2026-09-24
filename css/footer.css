@@ -10,7 +10,6 @@
     align-items: flex-start;
 }
 .footer__block{
-    margin-left: 15px;
     margin-right: 120px;
 }
 
@@ -108,7 +107,6 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     /* WHITE */
     color: #FFFFFF;
