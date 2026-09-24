@@ -71,8 +71,13 @@
     background-color: #31D0AA;
 }
 .Footer__input{
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-sizing: border-box;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
 
     display: flex;
     flex-direction: row;
@@ -90,13 +95,7 @@
 }
 .Footer__input::placeholder{
     /* E-mail */
-
-    position: absolute;
-    height: 14px;
-    left: 6.06%;
-    right: 80.3%;
-    top: calc(50% - 14px/2);
-
+    
     /* Small Text */
     font-family: 'Roboto';
     font-style: normal;
@@ -104,8 +103,6 @@
     font-size: 12px;
     line-height: 1.17;
     /* identical to box height, or 117% */
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
 
     /* WHITE */
@@ -156,7 +153,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
 
     color: #FFFFFF;
 
@@ -165,6 +162,13 @@
     
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+.Subscribe__text{
+    font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #FFFFFF;
 }
 .Footer__button:hover,.Footer__button:focus{
     background-color: #31D0AA;
