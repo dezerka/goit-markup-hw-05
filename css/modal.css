@@ -92,6 +92,7 @@
     letter-spacing: 0.04em;
     color: #8E8F99;
     margin-bottom: 4px;
+    display: block;
 }
 .form-input{
     border: 1px solid rgba(46, 47, 66, 0.4);
